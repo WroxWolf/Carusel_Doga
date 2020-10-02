@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: gray;
+}
+figure{
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+}
+figcaption {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.8rem;
+    
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+.left-link {
+    left: 0;
+}
+
+.right-link {
+    right: 0
+}
+.left-link,
+.right-link {
+    position: absolute;
+    top: 30vh;
+    font-size: 3.2em;
+}
+
+.left-link a,
+.right-link a {
+    text-decoration: none;
+     padding: 20px;
+     color: whitesmoke;
+}
+.centerleft,.center,.centerright{
+    position:absolute
+}
